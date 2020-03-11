@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0800A79224192470006F7A35 /* SegueHandlerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0800A79124192470006F7A35 /* SegueHandlerType.swift */; };
+		0800A795241928D5006F7A35 /* FilterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0800A794241928D5006F7A35 /* FilterController.swift */; };
 		0826EC7D2418DB5300FAB060 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0826EC7C2418DB5300FAB060 /* AppDelegate.swift */; };
 		0826EC7F2418DB5300FAB060 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0826EC7E2418DB5300FAB060 /* SceneDelegate.swift */; };
 		0826EC812418DB5300FAB060 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0826EC802418DB5300FAB060 /* ViewController.swift */; };
@@ -14,9 +16,12 @@
 		0826EC872418DB5300FAB060 /* catalogue.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0826EC852418DB5300FAB060 /* catalogue.xcdatamodeld */; };
 		0826EC892418DB5600FAB060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0826EC882418DB5600FAB060 /* Assets.xcassets */; };
 		0826EC8C2418DB5600FAB060 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0826EC8A2418DB5600FAB060 /* LaunchScreen.storyboard */; };
+		0826EC942418EF5900FAB060 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0826EC932418EF5900FAB060 /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0800A79124192470006F7A35 /* SegueHandlerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueHandlerType.swift; sourceTree = "<group>"; };
+		0800A794241928D5006F7A35 /* FilterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterController.swift; sourceTree = "<group>"; };
 		0826EC792418DB5300FAB060 /* catalogue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = catalogue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0826EC7C2418DB5300FAB060 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0826EC7E2418DB5300FAB060 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +31,7 @@
 		0826EC882418DB5600FAB060 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0826EC8B2418DB5600FAB060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0826EC8D2418DB5600FAB060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0826EC932418EF5900FAB060 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0800A793241925FC006F7A35 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0800A794241928D5006F7A35 /* FilterController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		0826EC702418DB5300FAB060 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +72,8 @@
 		0826EC7B2418DB5300FAB060 /* catalogue */ = {
 			isa = PBXGroup;
 			children = (
+				0800A793241925FC006F7A35 /* Controller */,
+				0800A79124192470006F7A35 /* SegueHandlerType.swift */,
 				0826EC7C2418DB5300FAB060 /* AppDelegate.swift */,
 				0826EC7E2418DB5300FAB060 /* SceneDelegate.swift */,
 				0826EC802418DB5300FAB060 /* ViewController.swift */,
@@ -66,6 +82,7 @@
 				0826EC8A2418DB5600FAB060 /* LaunchScreen.storyboard */,
 				0826EC8D2418DB5600FAB060 /* Info.plist */,
 				0826EC852418DB5300FAB060 /* catalogue.xcdatamodeld */,
+				0826EC932418EF5900FAB060 /* CoreDataManager.swift */,
 			);
 			path = catalogue;
 			sourceTree = "<group>";
@@ -144,7 +161,10 @@
 				0826EC812418DB5300FAB060 /* ViewController.swift in Sources */,
 				0826EC7D2418DB5300FAB060 /* AppDelegate.swift in Sources */,
 				0826EC7F2418DB5300FAB060 /* SceneDelegate.swift in Sources */,
+				0826EC942418EF5900FAB060 /* CoreDataManager.swift in Sources */,
+				0800A79224192470006F7A35 /* SegueHandlerType.swift in Sources */,
 				0826EC872418DB5300FAB060 /* catalogue.xcdatamodeld in Sources */,
+				0800A795241928D5006F7A35 /* FilterController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
